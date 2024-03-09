@@ -1,51 +1,5 @@
-# servlet-assignment
-<h2> This is the data flow structure of all file and services that i created.</h2>
-<br /><br />		
-Question 1
-		CalcServlet.java
+<h3> This is the data flow structure of all file and services that i created.</h3>
+<br />
+I created all this assignment when i start creating web application. In this small application i design some microservices, <br />
+that transfer data from frontend to backend by using httpservletrequest and response method.
 
-<br />	
-Question 2
-		index.jsp ------> RegisterServlet.java
-
-<br />	
-Assignment  1
-		product.jsp		<---+
-			|				|
-			+-------> GetProduct.java
-			|
-			+-------> PutData.java
-
-
-<br />	
-Assignment  2
-				+--<--- GetEmpName.java
-				|
-		leave.jsp 
-			|   |	
-			|	+--<--- GetLeave.java
-			|
-			+-----> PutLeave.java
-
-
-<br />	
-Assignment  3
-	login.jsp 	 <------+
-		|				|
-		+-------> register.jsp ----> RegisterUserData.java
-		|
-		|										+----<---delete-----+
-		|										|					|
-		+-------> ValidUser.java ---+------> admin.jsp ------> ManageUser.java
-									|			|					|
-									|			|					+----edit------> edit.jsp ------> UpdateUserData.java
-									|			|																|
-									|			+----------------------------<----------------------------------+
-									|
-									+------> student.jsp
-									|
-									+------> teacher.jsp
-									
-<br />	
-Task 4 :- Inline edit	(https://hoven.in/aspnet-core/js-inline-inplace-edit.html)
-			inlineEdit.jsp
